@@ -21,4 +21,5 @@ Interfaz web de una tienda e-commerce con navegación, listado de productos de b
 ![Detalle](assets/img/capture.detalle.png)
 
 ## Autor
-Sofía Fajardo — [enlace a tu perfil de GitHub](https://github.com/sofiafajardoro)
+Sofía Fajardo . https://github.com/sofiafajardoro
+
