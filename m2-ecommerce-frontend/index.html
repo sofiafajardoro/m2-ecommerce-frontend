@@ -1,0 +1,182 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./assets/css/styles.css">
+
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=local_mall" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+
+    <title>Mi tienda</title>
+</head>
+
+<body>
+    <div class="preheader">
+        <p>
+            <span class="material-symbols-outlined">local_mall</span> ¡Envíos gratis por compras sobre $60.000!
+        </p>
+    </div>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Productos</a></li>
+                <li><a href="#">Nosotros</a></li>
+                <li><a href="#">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="productos">
+            <header class="productos-header">
+                <h1 class="titulo-productos">Productos Destacados</h1>
+                <svg class="icon-productos" xmlns="http://www.w3.org/2000/svg" height="28px" viewBox="0 -960 960 960"
+                    width="28px" fill="#5a2141">
+                    <path
+                        d="M200-80 40-520l200-120v-240h160v240l200 120L440-80H200Zm480 0q-17 0-28.5-11.5T640-120q0-17 11.5-28.5T680-160h120v-80H680q-17 0-28.5-11.5T640-280q0-17 11.5-28.5T680-320h120v-80H680q-17 0-28.5-11.5T640-440q0-17 11.5-28.5T680-480h120v-80H680q-17 0-28.5-11.5T640-600q0-17 11.5-28.5T680-640h120v-80H680q-17 0-28.5-11.5T640-760q0-17 11.5-28.5T680-800h160q33 0 56.5 23.5T920-720v560q0 33-23.5 56.5T840-80H680Zm-424-80h128l118-326-124-74H262l-124 74 118 326Zm64-200Z" />
+                </svg>
+            </header>
+
+            <p class="subtitulo-productos">
+                ✨ Encuentra todo lo que buscas en cuidado capilar ✨
+            </p>
+            <div class="grid-productos">
+                <article class="producto-card">
+                    <a href="producto.html" class="producto">
+                        <figure>
+                            <img src="./assets/img/producto1.png" alt="Producto 1" class="img-producto">
+                        </figure>
+                        <div class="card-content">
+
+                            <h2>Shampoo Hidratante</h2>
+                    </a>
+                    <p class="descripcion">Shampoo de hidratación profunda todo tipo de cabello.
+                    </p>
+                    <p class="precio">
+                        $15.990
+                    </p>
+                    <button>Añadir al carrito</button>
+            </div>
+            </article>
+            <article class="producto-card">
+                <a href="producto.html" class="producto">
+                    <figure>
+                        <img src="./assets/img/producto2.png" alt="Producto 2" class="img-producto">
+                    </figure>
+                    <div class="card-content">
+                        <h2> Acondicionador Reparador</h2>
+                </a>
+                <p class="descripcion">Acondicionador reparador para cabello dañado.
+                </p>
+                <p class="precio">
+                    $18.990
+                </p>
+                <button>Añadir al carrito</button>
+                </div>
+            </article>
+            <article class="producto-card">
+                <a href="producto.html" class="producto">
+                    <figure>
+                        <img src="./assets/img/producto3.png" alt="Producto 3" class="img-producto">
+                    </figure>
+                    <div class="card-content">
+                        <h2>Mascarilla Reparadora</h2>
+                </a>
+                <p class="descripcion">Mascarilla reparadora para cabello dañado.
+                </p>
+                <p class="precio">
+                    $19.990
+                </p>
+                <button>Añadir al carrito</button>
+                </div>
+            </article>
+            <article class="producto-card">
+                <a href="producto.html" class="producto">
+                    <figure>
+                        <img src="./assets/img/producto4.png" alt="Producto 4" class="img-producto">
+                    </figure>
+                    <div class="card-content">
+                        <h2>Serum Hidratante</h2>
+                </a>
+                <p class="descripcion">Serum hidratante para todo tipo de cabello.
+                </p>
+                <p class="precio">
+                    $10.990
+                </p>
+                <button>Añadir al carrito</button>
+                </div>
+            </article>
+            </div>
+        </section>
+        <section id="features">
+            <header>
+                <h2>¿Por qué elegirnos?</h2>
+            </header>
+            <div class="features grid">
+                <div class="feature-item">
+                    <article class="feature-item">
+                        <h3>Calidad Garantizada</h3>
+                        <p>Productos de las mejores marcas del mercado.</p>
+                    </article>
+                    <article class="feature-item">
+                        <h3>Gran Variedad</h3>
+                        <p>Amplio catálogo para todas tus necesidades capilares.</p>
+                    </article>
+                    <article class="feature-item">
+                        <h3>Atención Personalizada</h3>
+                        <p>Asesoría experta para elegir el producto ideal para ti.</p>
+                    </article>
+                </div>
+        </section>
+        <section class="newsletter">
+            <h2>Suscríbete a nuestras novedades</h2>
+            <p>Recibe ofertas exclusivas y nuevos productos</p>
+
+            <form class="newsletter-form">
+                <input type="email" placeholder="Ingresa tu correo" required>
+                <button type="submit">Suscribirme</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <div class="footer-content">
+
+            <div class="footer-section">
+                <h4>Tienda Chasconas</h4>
+                <p>¡Cuidado capilar de calidad garantizada 🥰!</p>
+            </div>
+
+            <div class="footer-section">
+                <h4>Ayuda</h4>
+                <ul>
+                    <li><a href="#">Preguntas Frecuentes</a></li>
+                    <li><a href="#">Envíos</a></li>
+                    <li><a href="#">Política de devoluciones</a></li>
+                    <li><a href="#">Términos y condiciones</a></li>
+                    <li><a href="#">Dónde encontrarnos</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-section">
+                <h4>Síguenos</h4>
+                <div class="social-icons">
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="footer-bottom">
+            © 2024 Tienda Chasconas. Todos los derechos reservados.
+        </div>
+    </footer>
+
+
+</body>
+
+</html>
