@@ -206,7 +206,7 @@ nav ul li a {
     padding: 0.8rem 1.5rem;
     border: none;
     background-color: #5a2141;
-    color: white;
+    color: white;git pull --rebase origin main
     cursor: pointer;
     border-radius: 5px;
     font-weight: bold;
@@ -285,10 +285,11 @@ footer {
         text-align: center;
         gap: 2rem;
         align-items: center;
-        
+
     }
 }
-header a{
+
+header a {
     width: 100%;
     text-align: center;
     padding: 3rem 0 1rem 0;
@@ -296,13 +297,13 @@ header a{
     margin: auto;
 }
 
- .detalle-producto {
+.detalle-producto {
     display: flex;
     align-items: flex-start;
     gap: 50px;
-    width: 100%;              
-    max-width: 1500px;      
-    margin: 40px auto 80px; 
+    width: 100%;
+    max-width: 1500px;
+    margin: 40px auto 80px;
 }
 
 
@@ -315,7 +316,8 @@ header a{
 }
 
 .info-producto {
-    flex: 1; /* se expande */
+    flex: 1;
+    /* se expande */
     text-align: left;
 }
 
