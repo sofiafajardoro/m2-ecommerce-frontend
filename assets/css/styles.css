@@ -89,10 +89,6 @@ nav ul li a {
     content: "✨";
 }
 
-<<<<<<< HEAD
-
-=======
->>>>>>> e3688943f41ab3eb00b0640f12e1a03abbdefdd5
 .grid-productos {
     display: grid;
     gap: 2rem;
@@ -102,10 +98,6 @@ nav ul li a {
     width: 100%;
 }
 
-<<<<<<< HEAD
-
-=======
->>>>>>> e3688943f41ab3eb00b0640f12e1a03abbdefdd5
 .producto-card {
     background: #ffffff;
     border-radius: 12px;
@@ -128,10 +120,6 @@ nav ul li a {
     border-radius: 10px;
 }
 
-<<<<<<< HEAD
-
-=======
->>>>>>> e3688943f41ab3eb00b0640f12e1a03abbdefdd5
 .producto-card h2 {
     font-size: 1rem;
     margin: 10px 0;
@@ -150,10 +138,6 @@ nav ul li a {
     margin-bottom: 10px;
 }
 
-<<<<<<< HEAD
-
-=======
->>>>>>> e3688943f41ab3eb00b0640f12e1a03abbdefdd5
 .producto-card button {
     background: #912f69;
     color: #fff;
@@ -167,10 +151,6 @@ nav ul li a {
     background: #742654;
 }
 
-<<<<<<< HEAD
-
-=======
->>>>>>> e3688943f41ab3eb00b0640f12e1a03abbdefdd5
 #features {
     margin-top: 50px;
 }
@@ -214,10 +194,7 @@ nav ul li a {
     flex-wrap: wrap;
 }
 
-<<<<<<< HEAD
 
-=======
->>>>>>> e3688943f41ab3eb00b0640f12e1a03abbdefdd5
 .newsletter-form input {
     padding: 0.8rem;
     width: 250px;
@@ -308,5 +285,81 @@ footer {
         text-align: center;
         gap: 2rem;
         align-items: center;
+        
     }
 }
+header a{
+    width: 100%;
+    text-align: center;
+    padding: 3rem 0 1rem 0;
+    max-width: 1200px;
+    margin: auto;
+}
+
+ .detalle-producto {
+    display: flex;
+    align-items: flex-start;
+    gap: 50px;
+    width: 100%;              
+    max-width: 1500px;      
+    margin: 40px auto 80px; 
+}
+
+
+.img-producto-detalle {
+    width: 350px;
+    border-radius: 10px;
+    background: white;
+    padding: 0.5%;
+    object-fit: contain;
+}
+
+.info-producto {
+    flex: 1; /* se expande */
+    text-align: left;
+}
+
+.info-producto h2 {
+    color: #331a23;
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+}
+
+.info-producto p {
+    font-size: 1.1rem;
+    margin-bottom: 0.8rem;
+}
+
+.precio {
+    font-size: 1.6rem;
+    font-weight: bold;
+    color: #912f69;
+}
+
+
+.info-producto button {
+    background-color: #9c446a;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 6px;
+    color: #fff;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.info-producto button:hover {
+    background: #742654;
+}
+
+
+@media (max-width: 768px) {
+    .detalle-producto {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .info-producto {
+        text-align: left;
+    }
